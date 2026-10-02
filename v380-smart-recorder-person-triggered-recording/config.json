@@ -1,0 +1,36 @@
+{
+  "confidence_threshold": 0.5,
+  "cooldown_seconds": 120,
+  "inference_every_n_frames": 2,
+  "capture_fps": 15,
+  "cameras": {
+    "Staircase": {
+      "name": "Staircase",
+      "capture_region": {
+        "x": 670,
+        "y": 67,
+        "width": 696,
+        "height": 576
+      },
+      "record_button": {
+        "x": 625,
+        "y": 699
+      },
+      "v380_window_title": "V380"
+    },
+    "Balcony": {
+      "name": "Balcony",
+      "capture_region": {
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 360
+      },
+      "record_button": {
+        "x": 0,
+        "y": 0
+      },
+      "v380_window_title": "V380"
+    }
+  }
+}
